@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Blog Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about" class="nav_link">About Me</a></li>
+                <li><a href="#articles" class="nav_link">Latest Articles</a></li>
+                <li><a href="#facts" class="nav_link">Facts</a></li>
+                <li><a href="#contact" class="nav_link">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 style="text-align: center;">My Tech Blog Homepage</h1>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <span id="Highlight_name">Shaurya Mittal</span>
+            <p>I am currently learning web development and machine learning.<br><br>
+            I have just completed knn,clustering,nlp and deep learning.(with tensorflow and keras)</p>
+            <br>
+            <p>I have my gpa like this 7.5 &gt; gpa &lt; 8.5</p>
+            <br>
+            <p>I love machine learning and my favorite algo are knn &amp; backpropogation</p>
+            <br>
+            <p>My best friend is &#128187;</p>            
+            <img src="Resources/profile.jpeg" alt ="Profile Picture">
+            <hr>
+            <p>Water = H<sub>2</sub>O and E = mc<sup>2</sup>. I ❤️ HTML & CSS!</p>
+        </section>
+        <section id="articles">
+            <h2>Latest Articles</h2>
+            <article>
+                <h3>Understanding Machine Learning</h3>
+                <p>Machine learning is a subset of artificial intelligence that focuses on building systems that learn from data<br>
+                We have broadly two categories of machine learning : one is <span class="highlight_keyword">supervised learning</span> and second is <span class="highlight_keyword">unsupervised learning</span><br>
+                Basics Of ML are important because they can help you to duve deeper in the fied of DL and AI.</p>
+            </article>
+            <article>
+                <h3>Web Development Basics</h3>
+                <p><span class="highlight_keyword">Web development</span> is the work involved in developing a website for the Internet or an intranet.<br>
+                It can range from developing a simple single static page of plain text to complex web applications,<br>
+                electronic businesses, and social network services.</p>
+            </article>
+        </section>
+        <aside id="facts">
+            <h2>Quick Facts</h2>
+            <ol>
+                <li>Started Learning in 2023</li>
+                <li>Favorite Programming language is Python.</li>
+                <li>I love to play chess.</li>
+            </ol>
+        </aside>
+        <section id="learn_journey">
+            <h2 id="table_heading">Learning Journey</h2>
+            <p id="table_para">My learning journey in all these years as a aspiring software developer.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Skills Learned</th>
+                        <th>Highlights</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2023</td>
+                        <td>Python,C++,HTML</td>
+                        <td>Started programming by learning basic programming languages along with some HTML.</td>                        
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>JavaScript, CSS,C,Basic Kotlin,Numpy,Pandas</td>
+                        <td>Learned more concepts of web development along with python libraries.</td>
+                    </tr>
+                    <tr>
+                        <td>2025</td>
+                        <td>Machine Learning,DSA</td>
+                        <td>Learnt Machine Learning and learn dsa in c++ and solve questions on leetcode.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contact">
+            <form method="post">
+                <label for="name">Name: </label>
+                <input type="text" id="name" placeholder="Enter your name">
+                <br>
+                <label for="email">Email: </label>
+                <input type="email" placeholder="Enter your email" id="email">
+                <br>
+                <label>Subscribe to Newsletter</label>
+                <input type="checkbox" id="subscribe">
+                <br>
+                <label for="gender">Gender: </label>
+                <input type="radio" name="gender" id="male" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="Female" value="Female">
+                <label for="Female">Female</label>
+                <br>
+                <label for="country">Country: </label>
+                <select id="country" name="country">
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                </select>
+                <br>
+                <label for="range">Rate your tech skills(1-10): </label>
+                <input type="rating" id="range" name="range" max="10" min="1">
+                <br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Tech Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
